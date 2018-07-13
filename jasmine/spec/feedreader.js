@@ -49,7 +49,7 @@ $(function() {
                 it('have a name', function() {
                     expect(feed.name).toBeDefined();
                 });
-                it('contains a valid name', function() {
+                it('contain a valid name', function() {
                     expect(feed.name).not.toBe(0);
                 });
             });
@@ -97,7 +97,7 @@ $(function() {
                 done();
             });
         });
-        it('contains at least a single entry in the feed container', function(done) {
+        it('contains at least a single entry within the feed container', function(done) {
             let entriesNum = document.querySelector('.feed').getElementsByClassName('entry-link').length;
             expect(entriesNum).toBeGreaterThan(0);
             done();

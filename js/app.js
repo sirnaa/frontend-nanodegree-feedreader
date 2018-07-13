@@ -8,19 +8,19 @@
 
 // The names and URLs to all of the feeds we'd like available.
 var allFeeds = [
-    {
-        name: 'Udacity Blog',
-        url: 'http://blog.udacity.com/feed'
-    }, {
-        name: 'CSS Tricks',
-        url: 'http://feeds.feedburner.com/CssTricks'
-    }, {
-        name: 'HTML5 Rocks',
-        url: 'http://feeds.feedburner.com/html5rocks'
-    }, {
-        name: 'Linear Digressions',
-        url: 'http://feeds.feedburner.com/udacity-linear-digressions'
-    }
+  {
+      name: 'Udacity Blog',
+      url: 'http://blog.udacity.com/feed'
+  }, {
+      name: 'CSS Tricks',
+      url: 'http://feeds.feedburner.com/CssTricks'
+  }, {
+      name: 'HTML5 Rocks',
+      url: 'http://feeds.feedburner.com/html5rocks'
+  }, {
+      name: 'Linear Digressions',
+      url: 'http://feeds.feedburner.com/udacity-linear-digressions'
+  }
 ];
 
 /* This function starts up our application. The Google Feed
@@ -36,7 +36,7 @@ function init() {
  * feed using the Google Feed Reader API. It will then
  * perform all of the DOM operations required to display
  * feed entries on the page. Feeds are referenced by their
- * index position within the allFeeds array.
+ * index position within the eeds array.
  * This function all supports a callback as the second parameter
  * which will be called after everything has run successfully.
  */
